@@ -65,7 +65,7 @@
                 <div class="hidden md:flex space-x-8">
                     <a href="#about" class="text-slate-600 hover:text-slate-900 font-medium transition-colors">About</a>
                     <a href="#services" class="text-slate-600 hover:text-slate-900 font-medium transition-colors">Services</a>
-                    <a href="#principal" class="text-slate-600 hover:text-slate-900 font-medium transition-colors">Principal</a>
+                    <a href="#team" class="text-slate-600 hover:text-slate-900 font-medium transition-colors">Leadership</a>
                     <a href="#contact" class="px-5 py-2.5 bg-slate-900 text-white font-medium rounded-lg hover:bg-slate-800 transition-all shadow-sm hover:shadow-md">Contact Us</a>
                 </div>
 
@@ -83,7 +83,7 @@
             <div class="px-4 pt-2 pb-6 space-y-2 shadow-lg">
                 <a href="#about" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50 rounded-md">About</a>
                 <a href="#services" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50 rounded-md">Services</a>
-                <a href="#principal" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50 rounded-md">Principal</a>
+                <a href="#team" class="block px-3 py-3 text-base font-medium text-slate-600 hover:text-slate-900 hover:bg-slate-50 rounded-md">Leadership</a>
                 <a href="#contact" class="block px-3 py-3 text-base font-medium text-slate-900 bg-slate-50 rounded-md">Contact Us</a>
             </div>
         </div>
@@ -177,44 +177,81 @@
         </div>
     </section>
 
-    <!-- Principal Section -->
-    <section id="principal" class="py-24 bg-slate-900 text-white">
+    <!-- Leadership Team Section -->
+    <section id="team" class="py-24 bg-slate-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
-                <div class="w-full md:w-1/2">
-                     <!-- Placeholder for Headshot - Using a generic professional abstraction -->
-                    <div class="aspect-[4/5] bg-slate-800 rounded-2xl overflow-hidden relative shadow-2xl border border-slate-700 flex items-center justify-center">
-                        <div class="text-center p-8">
-                            <i data-lucide="user" class="w-24 h-24 text-slate-600 mx-auto mb-4"></i>
-                            <p class="text-slate-500 italic">Add your photo here<br>(Replace img src in code)</p>
+            <div class="text-center mb-16">
+                <h2 class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-3">Who We Are</h2>
+                <h3 class="text-3xl font-bold text-white">Leadership Team</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 lg:gap-12">
+                
+                <!-- Profile 1: Cliff Weng -->
+                <div class="group bg-slate-800 rounded-2xl p-6 border border-slate-700 hover:border-slate-500 transition-all hover:-translate-y-1">
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-16 h-16 bg-slate-700 rounded-full flex items-center justify-center text-slate-400">
+                             <span class="text-2xl font-bold">CW</span>
                         </div>
-                        <!-- UNCOMMENT AND USE THIS LINE FOR REAL IMAGE:
-                        <img src="path/to/your-photo.jpg" alt="Principal" class="absolute inset-0 w-full h-full object-cover">
-                        -->
+                        <a href="https://www.linkedin.com/in/cliffweng/" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                            <i data-lucide="linkedin" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-1">Cliff W.</h4>
+                    <div class="text-blue-400 text-sm font-medium mb-4 uppercase tracking-wide">Principal</div>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Senior software engineer and technology leader with over 20 years of experience in financial technology, machine learning, and distributed systems. Expert in building high-performance, scalable systems and leading engineering teams in fast-paced environments.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-slate-900 rounded text-xs text-slate-300">Fintech</span>
+                        <span class="px-2 py-1 bg-slate-900 rounded text-xs text-slate-300">Strategy</span>
+                        <span class="px-2 py-1 bg-slate-900 rounded text-xs text-slate-300">STP</span>
                     </div>
                 </div>
-                <div class="w-full md:w-1/2">
-                    <h2 class="text-3xl lg:text-4xl font-bold mb-6">Leadership</h2>
-                    <h3 class="text-xl text-blue-400 font-medium mb-6">Principal</h3>
-                    <div class="space-y-6 text-slate-300 text-lg leading-relaxed">
-                        <p>
-                            At the helm of Sandy Hill Group is a seasoned executive with a passion for fostering innovation and driving sustainable growth.
-                        </p>
-                        <p>
-                            With deep experience in angel investing and corporate governance, the Principal brings a wealth of knowledge to every partnership, ensuring that portfolio companies and consulting clients alike have the resources and guidance needed to thrive in competitive markets.
-                        </p>
+
+                <!-- Profile 2: Elaine Schou -->
+                <div class="group bg-slate-800 rounded-2xl p-6 border border-slate-700 hover:border-slate-500 transition-all hover:-translate-y-1">
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-16 h-16 bg-slate-700 rounded-full flex items-center justify-center text-slate-400">
+                             <span class="text-2xl font-bold">ES</span>
+                        </div>
+                        <a href="https://www.linkedin.com/in/elaineschou/" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                            <i data-lucide="linkedin" class="w-5 h-5"></i>
+                        </a>
                     </div>
-                    <div class="mt-8 pt-8 border-t border-slate-800 grid grid-cols-2 gap-6">
-                        <div>
-                            <div class="text-3xl font-bold text-white">15+</div>
-                            <div class="text-slate-400 text-sm">Years Experience</div>
-                        </div>
-                        <div>
-                            <div class="text-3xl font-bold text-white">Advisory</div>
-                            <div class="text-slate-400 text-sm">Board Roles</div>
-                        </div>
+                    <h4 class="text-xl font-bold text-white mb-1">Elaine C.</h4>
+                    <div class="text-blue-400 text-sm font-medium mb-4 uppercase tracking-wide">Partner</div>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Oversees strategic operations and organizational planning. Focuses on long-term sustainability, operational efficiency, and partnership development, ensuring that portfolio investments align with core values and growth objectives.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-slate-900 rounded text-xs text-slate-300">Risk</span>
+                        <span class="px-2 py-1 bg-slate-900 rounded text-xs text-slate-300">Investment</span>
                     </div>
                 </div>
+
+                <!-- Profile 3: Julian Weng -->
+                <div class="group bg-slate-800 rounded-2xl p-6 border border-slate-700 hover:border-slate-500 transition-all hover:-translate-y-1">
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-16 h-16 bg-slate-700 rounded-full flex items-center justify-center text-slate-400">
+                             <span class="text-2xl font-bold">JW</span>
+                        </div>
+                        <a href="https://www.linkedin.com/in/julianweng/" target="_blank" class="text-slate-400 hover:text-white transition-colors">
+                            <i data-lucide="linkedin" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-1">Julian W.</h4>
+                    <div class="text-blue-400 text-sm font-medium mb-4 uppercase tracking-wide">Associate</div>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Background in Computer Science and Finance (UPenn M&T). Experience in quantitative research, healthtech, and software engineering at leading tech firms. Specializes in solving complex problems within social and financial systems.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-slate-900 rounded text-xs text-slate-300">Quantitative</span>
+                        <span class="px-2 py-1 bg-slate-900 rounded text-xs text-slate-300">Engineering</span>
+                        <span class="px-2 py-1 bg-slate-900 rounded text-xs text-slate-300">AI/ML</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
